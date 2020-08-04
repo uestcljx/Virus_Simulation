@@ -2,6 +2,11 @@
 Project for postgraduate recommendation of MNS
 # Inspired By
 [KikiLetGo/VirusBroadcast](https://github.com/KikiLetGo/VirusBroadcast), thanks for your contrib.
+# Program Design
+## Flow Chart
+![flowChart](./img/flowChart.png)
+## State Machine of Person
+![stateMachine](./img/stateMachine.png)
 # My work
 * Implement an interaction interface
     * Dynamically adjust the Number of bed/Broad rate/
