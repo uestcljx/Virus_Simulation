@@ -10,7 +10,9 @@ Project for postgraduate recommendation of MNS
 * Add cured person model
     * Cured time satisfies Gaussian distribution
     * Cured people have more immunity against virus
-# Comparison
+* Modify state machine
+    * Assign different fatality value for freeze/confirmed person
+# Demo
 * KikiLetGo version
 ![KiKiLetGo](./img/kikiletgo_ver.jpg)
 * My version
@@ -18,3 +20,5 @@ Project for postgraduate recommendation of MNS
 ![Mine2](./img/my_ver2.jpg)
 # TODO
 * Introduce mathematical model, such as SEIR model
+* Add curves to panel
+* Save/Load state

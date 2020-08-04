@@ -29,9 +29,9 @@ public class SliderPanel extends JPanel
                 case "HOSPITAL_RECEIVE_TIME":
                     Constants.HOSPITAL_RECEIVE_TIME = source.getValue();
                     break;
-                case "SHADOW_TIME":
-                    Constants.SHADOW_TIME = source.getValue();
-                    break;
+//                case "SHADOW_TIME":
+//                    Constants.SHADOW_TIME = source.getValue();
+//                    break;
                 case "BROAD_RATE":
                     float rate = (float) source.getValue()/10;
                     System.out.println(rate);
@@ -68,13 +68,13 @@ public class SliderPanel extends JPanel
         slider.setValue(Constants.HOSPITAL_RECEIVE_TIME);
         addSlider(slider, "医院响应时间","HOSPITAL_RECEIVE_TIME");
 
-        slider = new JSlider(10,500);
-        slider.setPaintTicks(true);
-        slider.setPaintLabels(true);
-        slider.setMajorTickSpacing(100);
-        slider.setMinorTickSpacing(50);
-        slider.setValue((int)Constants.SHADOW_TIME);
-        addSlider(slider, "潜伏时间","SHADOW_TIME");
+//        slider = new JSlider(10,500);
+//        slider.setPaintTicks(true);
+//        slider.setPaintLabels(true);
+//        slider.setMajorTickSpacing(100);
+//        slider.setMinorTickSpacing(50);
+//        slider.setValue((int)Constants.SHADOW_TIME);
+//        addSlider(slider, "潜伏时间","SHADOW_TIME");
 
         slider = new JSlider(1,10);
         slider.setPaintTicks(true);

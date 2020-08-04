@@ -12,8 +12,8 @@ public class Constants {
     public static float BROAD_RATE = 0.7f;//传播率
     public static float IMMUNITY = 0.2f;//治愈免疫力
     public static float SHADOW_TIME = 140;//潜伏时间，14天为140
-    public static int HOSPITAL_RECEIVE_TIME = 10;//医院收治响应时间
-    public static int BED_COUNT = 200;//医院床位
+    public static int HOSPITAL_RECEIVE_TIME = 30;//医院收治响应时间
+    public static int BED_COUNT = 100;//医院床位
     /**
      * 流动意向平均值，建议调整范围：[-0.99,0.99]
      * <p>
@@ -25,7 +25,7 @@ public class Constants {
 //    public static float FATALITY_RATE = 0.50f;//fatality_rate病死率，根据2月6日数据估算（病死数/确诊数）为0.02
     // 0.03x + 0.6(1-x) = 0.05
     public static double  MORTALITY= 0.03;//有床位死亡率
-    public static double  MORTALITYNoBed= 0.6;//无床位死亡率
+    public static double  MORTALITYNoBed= 0.6;//无床位死亡率  
     public static int CURE_TIME = 120;//平均治愈时间
     public static double CURE_VARIANCE = 1;//治愈时间方差
     public static int DIE_TIME = 100;//死亡时间均值，30天，从发病（确诊）时开始计时
